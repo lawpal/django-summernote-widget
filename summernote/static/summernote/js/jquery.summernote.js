@@ -12,7 +12,7 @@
       ],
       onblur: function() {
         var $this = $(this);
-        var $el = $this.parent().siblings('[data-toggle=summernote']);
+        var $el = $this.parent().siblings('[data-toggle=summernote]');
 
         $el.html($this.code());
       }

@@ -1,11 +1,8 @@
-from django.forms.util import flatatt
 from django.forms.widgets import Textarea
-from django.utils.encoding import force_text
-from django.utils.html import format_html
 
 
 class SummernoteWidget(Textarea):
-    class Meta:
+    class Media:
         css = {
             'all': (
                 '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css',

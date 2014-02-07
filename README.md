@@ -10,14 +10,14 @@ A [Summernote](https://github.com/HackerWins/summernote) textarea widget for Dja
 
 Alternatively, add it into your `requirements` file:
 
-    django-summernote-widget==0.1.0
+    django-summernote-widget==0.1.1
 
 ## Configuration
 
-Add `django-summernote-widget` to `INSTALLED_APPS` in `settings.py`:
+Add `summernote` to `INSTALLED_APPS` in `settings.py`:
 
 ```python
-INSTALLED_APPS += ('django-summernote-widget',)
+INSTALLED_APPS += ('summernote',)
 ```
 
 ## Usage
