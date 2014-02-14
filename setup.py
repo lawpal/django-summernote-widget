@@ -12,7 +12,7 @@ setup(
     license = 'MIT',
     packages = find_packages(exclude=('tests', 'docs')),
     include_package_data = True,
-    install_requires = ['Django>=1.5'],
+    install_requires = ['Django>=1.2'],
     zip_safe = False,
     test_suite = 'tests'
 )
